@@ -21,7 +21,8 @@ function makeAjaxRequest(){
 
 
 $(document).ready(function(){
-
+	
+	
 });
 
 
