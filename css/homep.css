@@ -30,3 +30,29 @@
 		-webkit-border-radius: 50%;  /* safari , chrome */
 		-moz-border-radius: 50%;  /* mozila */
 	}
+
+	p 
+	{
+		font-size: 19px;
+	}
+
+	title:before {
+		font-family: 'FontAwesome';
+		content: '\f121';
+	}
+
+.block.icon-wifi-title .block-title-wrapper h4 {
+	padding: 5px;
+}
+
+.block.icon-wifi-title .block-title-wrapper h4:before {
+	color: inherit;
+	content: "\f1eb";
+	display: inline-block;
+	float: none;
+	font-family: "FontAwesome";
+	font-size: inherit;
+	font-weight: 300;
+	margin: 0 6px 0 0;
+	padding: 0;
+}
