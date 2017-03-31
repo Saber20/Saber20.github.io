@@ -8,3 +8,20 @@
 	{
 		font-size: 19px;
 	}
+
+	h1 {
+		font-family: 'Courgette', cursive;1
+		SunSans-Regular, sans-serif 
+	}
+
+	body{
+		
+		font-family: 'Nova Oval', cursive;
+
+		color: green;
+
+		background-image: url("../images/5.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+
+	}

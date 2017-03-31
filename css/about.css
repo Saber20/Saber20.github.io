@@ -1,10 +1,27 @@
-	body 
+ 	h1 {
+	font-family: 'Courgette', cursive;1
+	SunSans-Regular, sans-serif 
+}
+
+	body
 	{
-		color: green;
-		background-color: 	rgb(0, 0, 0)
+		color: white;
+		font-size: 19px;
 	}
 	p
 	{
 		font-size: 19px;
 	}
 
+body{
+	background-image: url("../images/5.gif");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+body{
+	
+	font-family: 'Nova Oval', cursive;
+
+	color: green;
+ 
