@@ -1,21 +1,21 @@
 body,
 html{
 	min-height: 100%;
+	font-family: sans-serif;
 }
 
 
 body{
-	
-	font-family: 'Nova Oval', cursive;
-
 	color: black;
-
-	background-image: url("../images/1.gif");
+	/*background-image: url("../images/1.gif");*/
 	background-repeat: no-repeat;
 	background-size: cover;
-
 }
 
+.row{
+	/*background-color: rgb(38, 38, 38);*/
+	margin: 0px;
+}
 
 ul.navbar {
 	position: absolute;
@@ -23,25 +23,35 @@ ul.navbar {
 	left: 1em;
 	width: 9em 
 }
-h1 {
+h1{
 	font-family: 'Courgette', cursive;1
-	SunSans-Regular, sans-serif 
+	SunSans-Regular, sans-serif
+	/*color:rgb(100, 10, 100); */
 }
+
+h1,h4{
+	color: white;	
+}
+
 
 img
 {
 	width: 275px; border-radius: 50%; /*  opera, IE9, */
 	-webkit-border-radius: 75%;  /* safari , chrome */
 	-moz-border-radius: 75%;  /* mozila */
-
-	position: absolute;
+/*
+	position: relative;
     bottom: 0px;
-    left: 100px;
+    left: 100px;*/
 }
 
-p 
-{
+p{
 	font-size: 22px;
+	font-family: 'Nova Oval', cursive;
+	padding-top: 60px;
+	text-align: justify;
+
+
 }
 
 title:before {
@@ -51,4 +61,30 @@ title:before {
 
 .block.icon-wifi-title .block-title-wrapper h4 {
 	padding: 5px;
+}
+
+.nav-tabs.nav-justified>li>a {
+	color:rgb(102, 0, 102);
+	font-size: 16px;
+}
+.custom-nav{
+	background-color:black;
+}
+
+hr{
+	border: 0;
+	height: 1px;
+	margin: 0px;
+	width: 350px;
+	background-image: linear-gradient(to right, rgb(75, 0, 0), rgb(0, 25, 0), rgb(0, 0, 75));
+}
+
+.nav-tabs.nav-justified>li.active>a{
+	color:#000;
+	background-color:rgb(102, 0, 102);
+	border-color:rgb(102, 0, 102);
+}
+#info h1{
+	margin-top: 0;
+	padding-top: 5px;
 }

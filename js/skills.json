@@ -1,0 +1,29 @@
+{
+	"skills":[
+		{
+			"name":"HTML",
+			"cssclass":"fa fa-html5",
+			"description":" is used by web programmers to describe the contents of a web page. It is not a programming language. You simply use HTML to indicate what a certain chunk of text is-such as a paragraph, a heading or specially formatted text."
+		},
+		{
+			"name":"CSS",
+			"cssclass":"fa fa-html5",
+			"description":" is used to define styles for your web pages, including the design, layout and variations in display for different devices and screen sizes."
+		},
+		{
+			"name":"Ruby",
+			"cssclass":"fa fa-html5",
+			"description": " is a scripting language designed by Yukihiro Matsumoto, also known as Matz. It runs on a variety of platforms, such as Windows, Mac OS, and the various versions of UNIX. This tutorial gives a complete understanding on Ruby."
+		},
+		{
+			"name":"JavaScript",
+			"cssclass":"fa fa-html5",
+			"description":" is a cross-platform, object-oriented scripting language. It is a small and lightweight language. Inside a host environment (for example, a web browser), JavaScript can be connected to the objects of its environment to provide programmatic control over them."
+		},
+		{
+			"name":"Jquery",
+			"cssclass":"fa fa-html5",
+			"description":" is a JavaScript Library, greatly simplifies JavaScript programming, and jQuery is easy to learn."
+		}
+	]
+}

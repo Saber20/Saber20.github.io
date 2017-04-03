@@ -1,16 +1,9 @@
-body{
-		
-		font-family: 'Nova Oval', cursive;
-
-		color: green;
-
-		background-image: url("../images/2.gif");
-		background-repeat: no-repeat;
-		background-size: cover;
-
+	h1{
+		font-family: 'Courgette', cursive;1
+		SunSans-Regular, sans-serif 
 	}
-/*
-	body 
+
+/*	body 
 	{
 		color: green;
 		background-color: 	rgb(0, 0, 0)
@@ -19,4 +12,38 @@ body{
 	p
 	{
 		font-size: 19px;
+		color: black;
 	}
+
+
+
+	h1{
+	color: white;
+}
+
+
+
+
+		.nav-tabs.nav-justified>li>a {
+			color:rgb(102, 0, 102);
+			font-size: 18px;
+ 		}
+
+ 		.nav-tabs.nav-justified>li.active>a{
+ 			color:#000;
+ 			background-color:rgb(102, 0, 102);
+ 			border-color:rgb(102, 0, 102);
+ 		}
+
+ 		.ski{
+ 			background-color:black;
+ 		}
+
+hr{
+	border: 0;
+	height: 1px;
+	margin: 0px;
+	width: 350px;
+	background-image: linear-gradient(to right, rgb(100, 0, 0), rgb(0, 0, 0), rgb(30, 25, 100));
+}
+ 

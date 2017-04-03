@@ -1,12 +1,12 @@
-	h1 {
+	h1,h2{
 		font-family: 'Courgette', cursive;1
 		SunSans-Regular, sans-serif 
 	}
 
 	body 
 	{
-		color: green;
-		background-color: 	rgb(0, 0, 0)
+		color: black;
+		background-color:white;
 	}
 
 }
@@ -21,10 +21,48 @@ body{
 	
 	font-family: 'Nova Oval', cursive;
 
-	color: green;
+/*	color: green;
 
 	background-image: url("../images/3.gif");
 	background-repeat: no-repeat;
 	background-size: cover;
+	*/
+}
 
+h1{
+	color: white;
+}
+
+
+
+
+.nav-tabs.nav-justified>li>a {
+	color:rgb(102, 0, 102);
+	font-size: 18px;
+}
+
+.nav-tabs.nav-justified>li.active>a{
+	color:#000;
+	background-color:rgb(102, 0, 102);
+	border-color:rgb(102, 0, 102);
+}
+
+.custom-nav{
+	background-color:black;
+}
+
+hr{
+	border: 0;
+	height: 1px;
+	margin: 0px;
+	width: 350px;
+	background-image: linear-gradient(to right, rgb(100, 0, 0), rgb(0, 0, 0), rgb(30, 25, 100));
+}
+.mainw{
+	/*margin: 0px;*/
+	padding: 5px;
+}
+.custom-nav h1{
+	margin-top: 0;
+	padding-top: 35px;
 }
