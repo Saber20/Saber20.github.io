@@ -76,7 +76,7 @@ hr{
 	height: 1px;
 	margin: 0px;
 	width: 350px;
-	background-image: linear-gradient(to right, rgb(75, 0, 0), rgb(0, 25, 0), rgb(0, 0, 75));
+	background-image: linear-gradient(to right, rgb(75, 0, 0), rgb(0, 15, 0), rgb(0, 0, 75));
 }
 
 .nav-tabs.nav-justified>li.active>a{
@@ -87,4 +87,44 @@ hr{
 #info h1{
 	margin-top: 0;
 	padding-top: 5px;
+}
+#social-logos{
+	position: fixed;
+	left:25px;
+	top:250px;
+}
+.social-icon{
+	font-size: 2em;
+}
+#social-logos>a{
+	color: black;
+}
+
+
+#social-logo{
+	position: fixed;
+	left:25px;
+	top:300px;
+}
+.social-icons{
+	font-size: 1.5em;
+}
+#social-logo>a{
+	color: black;
+}
+
+
+
+#social-log{
+	position: fixed;
+	left:25px;
+	top:350px;
+}
+.social-ico{
+	font-size: 1.5em;
+}
+
+}
+#social-log>a{
+	color: black;
 }

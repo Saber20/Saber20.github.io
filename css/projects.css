@@ -56,7 +56,7 @@ hr{
 	height: 1px;
 	margin: 0px;
 	width: 350px;
-	background-image: linear-gradient(to right, rgb(100, 0, 0), rgb(0, 0, 0), rgb(30, 25, 100));
+	background-image: linear-gradient(to right, rgb(100, 0, 0), rgb(0, 25, 0), rgb(0, 25, 100));
 }
 .mainw{
 	/*margin: 0px;*/
