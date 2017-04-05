@@ -1,0 +1,70 @@
+ 	h1{
+ 		color: white;
+ 		font-family: 'Courgette', cursive;1
+ 		SunSans-Regular, sans-serif 
+ 	}
+
+ 	h2{
+ 		/*color: white;*/
+ 		font-family: 'Courgette', cursive;1
+ 		SunSans-Regular, sans-serif 
+ 	}
+
+
+ 	body
+ 	{
+ 		color: white;
+ 		font-size: 19px;
+ 	}
+ 	p
+ 	{
+ 		font-size: 19px;
+ 	}
+
+ 	/*body{*/
+ 		/*background-image: url("../images/5.gif");*/
+ 		/*background-repeat: no-repeat;*/
+ 		/*background-size: cover;*/
+ 		/*}*/
+ 
+ 		body{
+
+ 			font-family: 'Nova Oval', cursive;
+
+ 			color: black;
+ 		}
+
+
+
+ 		.nav-tabs.nav-justified>li>a {
+ 			color:rgb(102, 0, 102);
+ 			font-size: 18px;
+ 		}
+
+ 		.nav-tabs.nav-justified>li.active>a{
+ 			color:#000;
+ 			background-color:rgb(102, 0, 102);
+ 			border-color:rgb(102, 0, 102);
+ 		}
+
+ 		.custom-nav{
+ 			background-color:black;
+ 		}
+
+ 		hr{
+	border: 0;
+	height: 1px;
+	margin: 0px;
+	width: 350px;
+	background-image: linear-gradient(to right, rgb(100, 0, 0), rgb(0, 25, 0), rgb(30, 25, 100));
+}
+.title{
+	margin: 0px;
+	padding: 5px;
+}
+
+.custom-nav h1{
+	margin-top: 0;
+	padding-top: 12px;
+	padding-bottom:  12px;
+}

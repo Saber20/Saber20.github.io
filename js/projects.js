@@ -1,4 +1,3 @@
-
 function makeAjaxRequest(){
 
 	$.ajax({
@@ -36,6 +35,10 @@ $(document).ready(function(){
 		{
 			makeAjaxRequest();
 		}
+		else if($(this).html()==='Favourite'){
+			favouritesRequest();
+
+		}
 		$(this).tab('show')
 
 
@@ -46,3 +49,47 @@ $(document).ready(function(){
 });
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+function favouritesRequest(){
+	$.ajax({
+		url: 'https://gh-pinned-repos.now.sh/?username=saber20',
+		type: 'GET',
+	})
+	.done(function(repos) {
+		try {
+			$('#favourite').html('')
+			var array=JSON.parse(repos);
+			array.forEach(function(repo){
+				var html_url="https://github.com/saber20/"+repo.repo
+				$('#favourite').append(`<a href="${html_url}"  target= "_blank">${repo.repo}</a>${repo.language}<br>`)
+			})
+		}
+		catch(e){}});
+};
+
+// $(document).ready(function(){
+// 	$('#myTabs a').click(function (e) {
+// 		e.preventDefault()
+// 		if($(this).html()==='Favourite')
+// 		{
+// 			favouritesRequest();
+// 		}
+// 		$(this).tab('show')
+
+
+// 	})
+//    $('#myTabs a:first').tab('show') // Select first tab
+//    favouritesRequest();
+
+// });
