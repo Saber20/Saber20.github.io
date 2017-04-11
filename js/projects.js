@@ -77,19 +77,3 @@ function favouritesRequest(){
 		}
 		catch(e){}});
 };
-
-// $(document).ready(function(){
-// 	$('#myTabs a').click(function (e) {
-// 		e.preventDefault()
-// 		if($(this).html()==='Favourite')
-// 		{
-// 			favouritesRequest();
-// 		}
-// 		$(this).tab('show')
-
-
-// 	})
-//    $('#myTabs a:first').tab('show') // Select first tab
-//    favouritesRequest();
-
-// });
