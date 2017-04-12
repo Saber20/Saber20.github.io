@@ -2,6 +2,7 @@ var url="https://www.googleapis.com/youtube/v3/search?part=snippet&key=AIzaSyCKg
 $(document).ready(function(){
 
 	$("#btn").click(function(){
+		$('#others').html('')
 		$.get(url,function(jsonResponse){
 			addVideoToDOM(jsonResponse.items[0].id.videoId);
 			console.log(jsonResponse.items)
