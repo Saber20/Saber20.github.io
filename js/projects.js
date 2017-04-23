@@ -67,9 +67,19 @@ function favouritesRequest(){
 		type: 'GET',
 	})
 	.done(function(repos) {
+		var array;
 		try {
+			// r=repos;
+			if(typeof repos === 'object' )
+			{
+				array=repos;
+
+			}
+			else{
+				array=JSON.parse(repos);
+
+			}
 			$('#favourite').html('')
-			var array=JSON.parse(repos);
 			array.forEach(function(repo){
 				var html_url="https://github.com/saber20/"+repo.repo
 				$('#favourite').append(`<a href="${html_url}"  target= "_blank">${repo.repo}</a>${repo.language}<br>`)
